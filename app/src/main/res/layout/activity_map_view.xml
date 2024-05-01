@@ -3,6 +3,18 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
+    <!-- Student ID TextView -->
+    <TextView
+        android:id="@+id/studentIdTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Student ID: S2110960"
+        android:textSize="18sp"
+        android:textColor="#ffffff"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="20dp"/>
+
     <FrameLayout
         android:id="@+id/mapContainer"
         android:layout_width="match_parent"
